@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELA VOLTOU!!! 🎉</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="celebration-page">
+    <div class="confetti-container" id="confettiContainer"></div>
+
+    <div class="container celebration">
+        <h1 class="celebration-title">ELA VOLTOU!!! 🎉</h1>
+
+        <div class="celebration-image">
+            <img src="https://media.giphy.com/media/g9582DNuQppxC/giphy.gif" alt="Celebração">
+        </div>
+
+        <div class="celebration-message">
+            <h2>A MOTO DO MATHEUS ESTÁ DE VOLTA!!!</h2>
+            <p>🏍️ Depois de tantos dias, finalmente ela está livre! 🏍️</p>
+            <p>Que venham muitas aventuras pela estrada!</p>
+        </div>
+
+        <div class="comments-section">
+            <h3>Deixe sua mensagem de parabéns!</h3>
+            <textarea id="commentBox" placeholder="Digite sua mensagem aqui..."></textarea>
+            <button class="btn btn-comment" id="btnAddComment">Adicionar Comentário</button>
+            <div id="commentsList" class="comments-list"></div>
+        </div>
+
+        <div class="share-section">
+            <button class="btn btn-share" id="btnShare">Compartilhar essa alegria! 🎊</button>
+            <button class="btn btn-back" onclick="window.location.href='index.html'">Voltar</button>
+        </div>
+    </div>
+
+    <audio id="celebrationAudio" autoplay loop>
+        <source src="assets/Ayrton Senna - Tema da vitória [-0hmmX96QvY].mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="celebration.js"></script>
+</body>
+</html>
